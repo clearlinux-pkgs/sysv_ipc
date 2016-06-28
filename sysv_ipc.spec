@@ -4,7 +4,7 @@
 #
 Name     : sysv_ipc
 Version  : 0.6.8
-Release  : 8
+Release  : 9
 URL      : https://pypi.python.org/packages/source/s/sysv_ipc/sysv_ipc-0.6.8.tar.gz
 Source0  : https://pypi.python.org/packages/source/s/sysv_ipc/sysv_ipc-0.6.8.tar.gz
 Summary  : System V IPC primitives (semaphores, shared memory and message queues) for Python
