@@ -1,4 +1,5 @@
 PKG_NAME := sysv_ipc
-URL := https://pypi.python.org/packages/source/s/sysv_ipc/sysv_ipc-0.6.8.tar.gz
+URL := http://pypi.debian.net/sysv_ipc/sysv_ipc-0.7.0.tar.gz
+ARCHIVES :=
 
 include ../common/Makefile.common
