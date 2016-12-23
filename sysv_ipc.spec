@@ -4,7 +4,7 @@
 #
 Name     : sysv_ipc
 Version  : 0.7.0
-Release  : 12
+Release  : 13
 URL      : http://pypi.debian.net/sysv_ipc/sysv_ipc-0.7.0.tar.gz
 Source0  : http://pypi.debian.net/sysv_ipc/sysv_ipc-0.7.0.tar.gz
 Summary  : System V IPC primitives (semaphores, shared memory and message queues) for Python
