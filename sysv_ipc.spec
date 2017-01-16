@@ -4,7 +4,7 @@
 #
 Name     : sysv_ipc
 Version  : 0.7.0
-Release  : 13
+Release  : 14
 URL      : http://pypi.debian.net/sysv_ipc/sysv_ipc-0.7.0.tar.gz
 Source0  : http://pypi.debian.net/sysv_ipc/sysv_ipc-0.7.0.tar.gz
 Summary  : System V IPC primitives (semaphores, shared memory and message queues) for Python
@@ -35,13 +35,15 @@ python components for the sysv_ipc package.
 
 %build
 export LANG=C
+export SOURCE_DATE_EPOCH=1484578477
 python2 setup.py build -b py2
 python3 setup.py build -b py3
 
 %install
+export SOURCE_DATE_EPOCH=1484578477
 rm -rf %{buildroot}
-python2 -tt setup.py build -b py2 install --root=%{buildroot}
-python3 -tt setup.py build -b py3 install --root=%{buildroot}
+python2 -tt setup.py build -b py2 install --root=%{buildroot} --force
+python3 -tt setup.py build -b py3 install --root=%{buildroot} --force
 
 %files
 %defattr(-,root,root,-)
